@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textColor="#000000"
+            android:text="Connection Status:" />
+        <TextView
+            android:id="@+id/lblConnectStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:gravity="center_vertical"
+            android:textColor="#ff0000"
+            android:text="Disconnected" />
+    </LinearLayout>
+    <EditText
+        android:id="@+id/txtIPAddress"
+        android:layout_width="125dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:padding="0dp"
+        android:textSize="14sp"
+        android:textColor="#000000"
+        android:background="@drawable/edit_text_border"
+        android:hint="Type IP"
+        android:layout_marginTop="16dp"
+        android:text="192.168.10.117"
+        android:inputType="numberDecimal|textNoSuggestions"
+        android:singleLine="true"
+        android:imeOptions="actionDone" />
+    <EditText
+        android:id="@+id/txtPort"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:maxLength="4"
+        android:numeric="integer"
+        android:padding="0dp"
+        android:textSize="14sp"
+        android:textColor="#000000"
+        android:background="@drawable/edit_text_border"
+        android:hint="Type Port"
+        android:layout_marginTop="16dp"
+        android:text="6000"
+        android:inputType="numberDecimal|textNoSuggestions"
+        android:singleLine="true"
+        android:imeOptions="actionDone" />
+    <Button
+        android:id="@+id/btnConnect"
+        android:layout_width="91dp"
+        android:layout_height="30dp"
+        android:text="Connect"
+        android:textSize="14sp"
+        android:gravity="left|center_vertical"
+        android:paddingTop="0dp"
+        android:paddingRight="0dp"
+        android:paddingBottom="0dp"
+        android:paddingLeft="0dp"
+        android:background="@null"
+        android:textColor="#ff007aff"
+        android:layout_marginTop="16dp" />
+    <EditText
+        android:id="@+id/txtMessage"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="left|center_vertical"
+        android:paddingTop="0dp"
+        android:paddingBottom="0dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textSize="14sp"
+        android:textColor="#000000"
+        android:background="@drawable/edit_text_border"
+        android:hint="Type Message"
+        android:layout_marginTop="16dp"
+        android:inputType="textNoSuggestions"
+        android:singleLine="true"
+        android:imeOptions="actionDone" />
+</LinearLayout>

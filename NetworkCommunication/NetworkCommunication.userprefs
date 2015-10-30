@@ -1,0 +1,13 @@
+﻿<Properties StartupItem="NetworkCommunication.Android\NetworkCommunication.Android.csproj" RefactoringSettings.EnableRefactorings="True">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" PreferredExecutionTarget="Android.SelectDevice" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="NetworkCommunication.Core/NetworkClient.cs">
+    <Files>
+      <File FileName="NetworkCommunication.Android/MainActivity.cs" Line="1" Column="1" />
+      <File FileName="NetworkCommunication.Core/NetworkClient.cs" Line="11" Column="10" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

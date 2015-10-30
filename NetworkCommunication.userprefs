@@ -1,0 +1,12 @@
+﻿<Properties StartupItem="NetworkCommunication.Android\NetworkCommunication.Android.csproj" RefactoringSettings.EnableRefactorings="True">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" PreferredExecutionTarget="Android.AVD_GalaxyNexus_ToolsForApacheCordova" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="NetworkCommunication.Android\Activities\ServerActivity.cs">
+    <Files>
+      <File FileName="NetworkCommunication.Android\Activities\ServerActivity.cs" Line="39" Column="13" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
